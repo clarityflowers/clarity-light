@@ -1,0 +1,22 @@
+{
+    "name": "clarity-vscode-theme",
+    "displayName": "clarity-vscode-theme",
+    "description": "clean colors",
+    "publisher": "strangerelics",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Clarity",
+                "uiTheme": "vs",
+                "path": "./themes/Clarity theme-color-theme.json"
+            }
+        ]
+    }
+}
