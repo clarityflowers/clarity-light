@@ -49,14 +49,9 @@
     },
     {
       "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Classes",
       "scope": [
+        "entity.name.function",
+        "support.function",
         "entity.name.type",
         "entity.other.inherited-class",
         "support.class"
