@@ -3,6 +3,10 @@
     "displayName": "clarity-vscode-theme",
     "description": "clean colors",
     "publisher": "strangerelics",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/strangerelics/clarity-vscode-theme"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.30.0"
