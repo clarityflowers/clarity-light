@@ -80,6 +80,13 @@
       "settings": {
         "foreground": "#FF97E8"
       }
+    },
+    {
+      "name": "Template Strings",
+      "scope": ["meta.template.expression"],
+      "settings": {
+        "foreground": "#333"
+      }
     }
   ]
 }
