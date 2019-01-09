@@ -34,6 +34,17 @@
       }
     },
     {
+      "name": "Documentation",
+      "scope": [
+        "comment.block.documentation",
+        "comment.block.documentation punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#62A9FF"
+      }
+    },
+    {
       "name": "Invalid - Illegal",
       "scope": "invalid.illegal",
       "settings": {
