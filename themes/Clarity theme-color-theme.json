@@ -52,8 +52,16 @@
       }
     },
     {
-      "name": "Language Constants",
-      "scope": ["constant.language", "support.constant"],
+      "name": "Constants",
+      "scope": [
+        "constant.language",
+        "support.constant",
+        "constant.numeric",
+        "constant.character",
+        "constant",
+        "keyword.control.export",
+        "string"
+      ],
       "settings": {
         "foreground": "#FF68DD"
       }
@@ -69,20 +77,6 @@
       ],
       "settings": {
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Numbers, Characters",
-      "scope": ["constant.numeric", "constant.character", "constant"],
-      "settings": {
-        "foreground": "#FF68DD"
-      }
-    },
-    {
-      "name": "Strings",
-      "scope": "string",
-      "settings": {
-        "foreground": "#FF68DD"
       }
     },
     {
