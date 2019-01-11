@@ -43,8 +43,8 @@
       "name": "Exports",
       "scope": "keyword.control.export",
       "settings": {
-        "foreground": "#FF68DD",
-        "fontStyle": "bold"
+        "foreground": "#fcb4ec",
+        "fontStyle": ""
       }
     },
     {
