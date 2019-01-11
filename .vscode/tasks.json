@@ -6,7 +6,8 @@
     {
       "label": "publish",
       "type": "shell",
-      "command": "sh ./publish.sh"
+      "command": "sh ./publish.sh",
+      "problemMatcher": []
     }
   ]
 }

@@ -7,11 +7,6 @@
   },
   "tokenColors": [
     {
-      "settings": {
-        "foreground": "#333"
-      }
-    },
-    {
       "name": "JSX",
       "scope": ["source.js meta.tag"],
       "settings": {
@@ -45,6 +40,14 @@
       }
     },
     {
+      "name": "Exports",
+      "scope": "keyword.control.export",
+      "settings": {
+        "foreground": "#FF68DD",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Invalid - Illegal",
       "scope": "invalid.illegal",
       "settings": {
@@ -59,7 +62,6 @@
         "constant.numeric",
         "constant.character",
         "constant",
-        "keyword.control.export",
         "string"
       ],
       "settings": {
@@ -67,13 +69,24 @@
       }
     },
     {
-      "name": "Functions",
+      "name": "Function Declarations",
       "scope": [
         "entity.name.function",
-        "support.function",
         "entity.name.type",
+        "support.function",
         "entity.other.inherited-class",
         "support.class"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Function usage",
+      "scope": [
+        "meta.function-call entity.name.function",
+        "meta.function-call support.function",
+        "support.class.component"
       ],
       "settings": {
         "fontStyle": "bold"
