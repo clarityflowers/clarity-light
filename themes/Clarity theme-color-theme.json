@@ -61,7 +61,6 @@
         "support.constant",
         "constant.numeric",
         "constant.character",
-        "constant",
         "string"
       ],
       "settings": {
