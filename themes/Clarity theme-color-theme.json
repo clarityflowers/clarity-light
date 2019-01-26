@@ -8,14 +8,14 @@
   "tokenColors": [
     {
       "name": "JSX",
-      "scope": ["source.js meta.tag"],
+      "scope": ["source meta.tag"],
       "settings": {
         "foreground": "#2F74D0"
       }
     },
     {
       "name": "JSX embedded",
-      "scope": ["source.js meta.tag meta.embedded.expression.js"],
+      "scope": ["source meta.tag meta.embedded.expression"],
       "settings": {
         "foreground": "#333"
       }
