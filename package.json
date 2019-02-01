@@ -7,7 +7,7 @@
     "type": "github",
     "url": "https://github.com/strangerelics/clarity-vscode-theme"
   },
-  "version": "1.1.4",
+  "version": "1.1.5",
   "engines": {
     "vscode": "^1.30.0"
   },
