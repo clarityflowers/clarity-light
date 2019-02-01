@@ -7,8 +7,8 @@
   },
   "tokenColors": [
     {
-      "name": "JSX",
-      "scope": ["source meta.tag"],
+      "name": "Embedded",
+      "scope": ["source meta.tag", "source source.css"],
       "settings": {
         "foreground": "#2F74D0"
       }
@@ -68,6 +68,20 @@
       }
     },
     {
+      "name": "css-in-js constants",
+      "scope": [
+        "source.js source.css constant.numeric",
+        "source.js source.css constant.character",
+        "source.js source.css constant",
+        "source.js source.css string",
+        "source.js source.css constant.language",
+        "source.js source.css support.constant"
+      ],
+      "settings": {
+        "foreground": "#FF68DD"
+      }
+    },
+    {
       "name": "Function Declarations",
       "scope": [
         "entity.name.function",
@@ -103,6 +117,13 @@
       "scope": ["meta.template.expression"],
       "settings": {
         "foreground": "#333"
+      }
+    },
+    {
+      "name": "CSS Attribute Names",
+      "scope": ["source.css entity.other.attribute-name"],
+      "settings": {
+        "fontStyle": "bold"
       }
     }
   ]
