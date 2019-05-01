@@ -8,7 +8,11 @@
   "tokenColors": [
     {
       "name": "Embedded",
-      "scope": ["source meta.tag", "source source.css"],
+      "scope": [
+        "source meta.tag",
+        "source source.css",
+        "source meta.embedded.block"
+      ],
       "settings": {
         "foreground": "#2F74D0"
       }
