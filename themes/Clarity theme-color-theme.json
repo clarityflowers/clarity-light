@@ -35,6 +35,7 @@
     {
       "name": "Documentation",
       "scope": [
+        "comment.line.documentation",
         "comment.block.documentation",
         "comment.block.documentation punctuation.definition.comment"
       ],

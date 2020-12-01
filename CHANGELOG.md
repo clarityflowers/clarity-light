@@ -1,7 +1,5 @@
 # Change Log
-All notable changes to the "clarity" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.2.0
 
-## [Unreleased]
-- Initial release
+- Support for Zig block comments
