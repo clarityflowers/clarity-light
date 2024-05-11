@@ -2,8 +2,8 @@
   "name": "Clarity theme",
   "type": "light",
   "colors": {
-    "editor.background": "#f5f5f5",
-    "editor.foreground": "#333"
+    "editor.background": "#fffaff",
+    "editor.foreground": "#505566"
   },
   "tokenColors": [
     {
@@ -19,14 +19,19 @@
     },
     {
       "name": "JSX embedded",
-      "scope": ["source meta.tag meta.embedded.expression"],
+      "scope": [
+        "source meta.tag meta.embedded.expression"
+      ],
       "settings": {
         "foreground": "#333"
       }
     },
     {
       "name": "Comments",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FF4848"
@@ -119,17 +124,39 @@
     },
     {
       "name": "Template Strings",
-      "scope": ["meta.template.expression"],
+      "scope": [
+        "meta.template.expression"
+      ],
       "settings": {
         "foreground": "#333"
       }
     },
     {
       "name": "CSS Attribute Names",
-      "scope": ["source.css entity.other.attribute-name"],
+      "scope": [
+        "source.css entity.other.attribute-name"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "comment": {
+      "foreground": "#ff5a5a",
+    },
+    "*.documentation": "#62A9FF",
+    "*.definition": {
+      "bold": true,
+    },
+    "variable.readonly": "#FF97E8",
+    "string": "#FF97E8",
+    "number": "#FF97E8",
+    "keyword:sword": {
+      "foreground": "#62A9FF",
+      // "underline": true,
+      // "italic": true
+    },
+  },
 }
