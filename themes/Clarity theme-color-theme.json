@@ -100,7 +100,7 @@
     {
       "name": "Function Declarations",
       "scope": [
-        "entity.name.function",
+        "entity.name.type entity.name.function",
         "entity.name.type",
         "support.function",
         "entity.other.inherited-class",
@@ -152,11 +152,15 @@
     "comment": {
       "foreground": "#ff5a5a",
     },
+    "macro": "#62A9FF",
     "*.documentation": "#62A9FF",
-    "*.definition": {
+    "function": {
       "bold": true,
     },
-    "variable.readonly": "#FF97E8",
+    "function.declaration": {
+      "fontStyle": "",
+      "foreground": "#505566"
+    },
     "string": "#FF97E8",
     "number": "#FF97E8",
     "keyword:sword": {
