@@ -3,7 +3,13 @@
   "type": "light",
   "colors": {
     "editor.background": "#fffaff",
-    "editor.foreground": "#505566"
+    "editor.foreground": "#505566",
+    "editorBracketHighlight.foreground1": "#505566",
+    "editorBracketHighlight.foreground2": "#3a1b2d",
+    "editorBracketHighlight.foreground3": "#356782",
+    "editorBracketHighlight.foreground4": "#e06cb5",
+    "editorBracketHighlight.foreground5": "#3390d0",
+    "editorBracketHighlight.foreground6": "#FF97E8"
   },
   "tokenColors": [
     {
